@@ -56,6 +56,17 @@ is(a).differentFrom(8); // returns true
 ```
 
 There are many functions comming
+#### Plurial form
+
+When you need to test many things instead of using is() function you can use are() function
+
+is(a).number && is(b).number // you can write this expression like this:
+are(a,b).number // and you can use are() with every property and function used with is()
+
+ ```javascript
+are([],[1,2,3]).array; // returns true
+are("",[],{}).empty; // returns true
+```
 
 #### Negative form question
 
@@ -64,6 +75,8 @@ instead of using the negative (opposite) of the is() function, you can use the i
  ```javascript
 isn_t(a).string; // returns true
 isnt(a).finite; // returns false
+arent([],{}).undefined // returns true
+aren_t(123,456).number // return false
 ```
 
 #### Synonymes 
