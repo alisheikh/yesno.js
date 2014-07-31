@@ -23,8 +23,9 @@ is(a).string; // returns false
 and you have many other properties to test which are :
 
  ```javascript
-is(a).array;
+is(a).number;
 is(a).string;
+is(a).array;
 is(a).numeric;
 is(a).integer;
 is(a).float;
