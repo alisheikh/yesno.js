@@ -1,7 +1,5 @@
-yes-no.js
-=========
 
-A better way to make your is statements readable !
+A better way to make your if statements readable !
 
 ####Introduction 
 
