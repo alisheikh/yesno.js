@@ -21,29 +21,32 @@ var a = 123;
 is(a).number; // returns true
 is(a).string; // returns false
 
-      // and you have many other properties to test which are :
-
-			// is(a).arrays
-			// is(a).string
-			// is(a).object
-			// is(a).boolean
-			// is(a).date       (Date object)
-			// is(a).element		(Html element)
-			// is(a).null
-			// is(a).integer
-			// is(a).regex
-			// is(a).numeric
-			// is(a).undefined
-			// is(a).NaN
-			// is(a).Finite
-			// is(a).empty
-			// is(a).set        (Has a value)
-			// is(a).true
-			// is(a).false
-			// is(a).float
-			// is(a).function
-			// is(a).json
 ```
+and you have many other properties to test which are :
+
+ ```javascript
+is(a).array;
+is(a).string;
+is(a).object;
+is(a).boolean;
+is(a).date; <-- is it a Date object
+is(a).element; <-- HTML Element
+is(a).null;
+is(a).integer;
+is(a).regex;
+is(a).numeric;
+is(a).undefined;
+is(a).NaN;
+is(a).Finite;
+is(a).empty; <-- Works for arrays, strings and objects
+is(a).set; <-- has a value or not
+is(a).true;
+is(a).false;
+is(a).float;
+is(a).function;
+is(a).json;
+```
+
 #### Functions
 
 You also can use functions like
@@ -86,6 +89,6 @@ is(a).string is the same thing as is(a).str
 				'equal' :  ['equalTo'],
 				'different': ['differentTo']
 			};
-			```
+```
 			
 and you can suggest your synonymes to be added to the library
