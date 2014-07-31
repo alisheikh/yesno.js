@@ -60,10 +60,11 @@ There are many functions comming
 
 When you need to test many things instead of using is() function you can use are() function
 
+ ```javascript
 is(a).number && is(b).number // you can write this expression like this:
 are(a,b).number // and you can use are() with every property and function used with is()
 
- ```javascript
+
 are([],[1,2,3]).array; // returns true
 are("",[],{}).empty; // returns true
 ```
