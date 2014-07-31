@@ -62,10 +62,10 @@ When you need to test many things instead of using is() function you can use are
 
  ```javascript
 is(a).number && is(b).number // you can write this expression like this:
-are(a,b).number // and you can use are() with every property and function used with is()
+are(a,b).numbers // and you can use are() with every property and function used with is()
 
 
-are([],[1,2,3]).array; // returns true
+are([],[1,2,3]).arrays; // returns true
 are("",[],{}).empty; // returns true
 ```
 
@@ -77,7 +77,7 @@ instead of using the negative (opposite) of the is() function, you can use the i
 isn_t(a).string; // returns true
 isnt(a).finite; // returns false
 arent([],{}).undefined // returns true
-aren_t(123,456).number // return false
+aren_t(123,456).numbers // return false
 ```
 
 #### Synonymes 
