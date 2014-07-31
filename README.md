@@ -50,7 +50,7 @@ is(a).json;
 You also can use functions like
 			
  ```javascript
- is(a).equal(123); // returns true
+is(a).equal(123); // returns true
 is(a).differentFrom(8); // returns true
 ```
 
@@ -58,7 +58,8 @@ There are many functions comming
 
 #### Negative form question
 
-instead of using the negative (opposite) of the is() function, you can use the isnt() or isn_t() like this
+instead of using the negative (opposite) of the is() function, you can use the isnt() or isn_t() like this:
+
  ```javascript
 isn_t(a).string; // returns true
 isnt(a).finite; // returns false
