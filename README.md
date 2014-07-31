@@ -66,11 +66,11 @@ isn_t(a).string; // returns true
 isnt(a).finite; // returns false
 ```
 
+#### Synonymes 
 There are properties and functions synonmys which makes it readable and not long like this
 
 is(a).string is the same thing as is(a).str
 
-#### Synonymes 
  ```javascript
 			{
 				'array' : ['arr'],
