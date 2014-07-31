@@ -10,6 +10,7 @@
 			var object = new isIt();
 			object.It = arguments;
 			object.negative = false;
+			object.setPlurial();
 			return object;
 		}
 		isn_t = isnt = function()
@@ -24,6 +25,7 @@
 			var object = new isIt();
 			object.It = arguments;
 			object.negative = true;
+			object.setPlurial();
 			return object;
 		}
 		function isIt()
@@ -310,6 +312,27 @@
 				'nan' : ['NaN'],
 				'finite' : ['Finite']
 			};
+			this.setPlurial = function()
+			{
+				var plurial =
+				{
+					'array' : ['arrays'],
+					'string' : ['strings'],
+					'number' : ['numbers'],
+					'boolean' : ['booleans'],
+					'object' : ['objects'],
+					'element' : ['elements'],
+					'integer' : ['integers'],
+					'function' : ['funcctions']
+				}
+				for(key in plurial) 
+				{
+					var copy = this;
+					plurial[key].map(function(elem){
+						copy.defineSyn(elem,key)
+					});
+				}
+			}
 			for(key in this.syn) 
 			{
 				var copy = this;
