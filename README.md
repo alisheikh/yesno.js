@@ -106,7 +106,3 @@ is(a).string is the same thing as is(a).str
 ```
 			
 and you can suggest your synonymes to be added to the library
-
-
-0.1.0 — Jully 31, 2014
-Initial release of yes-no.js.
