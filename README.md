@@ -107,7 +107,8 @@ is(a).string is the same thing as is(a).str
 			
 and you can suggest your synonymes to be added to the library.
 
-#### The `ìs` object
+#### The `is` object
+
 Starting from the 1.1 Release, you can make your if statments more readable.
 The `is` object is added into all the types' prototypes 
 
