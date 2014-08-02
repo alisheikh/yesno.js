@@ -105,12 +105,29 @@ is(a).string is the same thing as is(a).str
 			};
 ```
 			
-and you can suggest your synonymes to be added to the library
+and you can suggest your synonymes to be added to the library.
 
-####The is object
-
-Starting from the 1.1 Release, you can make your if statments more readable
+#### The `ìs` object
+Starting from the 1.1 Release, you can make your if statments more readable.
 The `is` object is added into all the types' prototypes 
 
+Now you can do:
+
+``` javascript 
+// Simple test
+var myVariable = 123;
+if( myVariable.is.number ) 
+{   /* code ... */  }
+
+// Let's shift elements and put them in another array
+var myArray = [1,2,3];
+var newArray = [];
+while( myArray.isnt.empty ) 
+{   /* code ... */  }
+
+// Plurial 
+var Names = ['khalid', 'Ahmed', 'Mohammed'];
+if( Names.are.strings )
+{  /* code ... */ }
 
 
