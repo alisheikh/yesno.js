@@ -20,7 +20,7 @@ is(a).number; // returns true
 is(a).string; // returns false
 
 ```
-and you have many other properties to test which are :
+and you have many other properties to test, which are :
 
  ```javascript
 is(a).number;
@@ -106,3 +106,11 @@ is(a).string is the same thing as is(a).str
 ```
 			
 and you can suggest your synonymes to be added to the library
+
+####The is object
+
+Starting from the 1.1 Release, you can make your if statments more readable
+The `is` object is added into all the types' prototypes 
+
+
+
