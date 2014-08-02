@@ -342,3 +342,66 @@
 				});
 			}
 		}
+		Object.defineProperty(String.prototype,'is',{ get : function(){ 
+			return is(this);
+		}});
+		Object.defineProperty(Number.prototype,'is',{ get : function(){ 
+			return is(this);
+		}});
+		Object.defineProperty(Boolean.prototype,'is',{ get : function(){ 
+			return is(this);
+		}});
+		Object.defineProperty(Array.prototype,'is',{ get : function(){ 
+			return is(this);
+		}});
+		Object.defineProperty(Object.prototype,'is',{ get : function(){ 
+			return is(this);
+		}});
+		Object.defineProperty(Function.prototype,'is',{ get : function(){ 
+			return is(this);
+		}});
+		Object.defineProperty(String.prototype,'isnt',{ get : function(){ 
+			return isnt(this);
+		}});
+		Object.defineProperty(Number.prototype,'isnt',{ get : function(){ 
+			return isnt(this);
+		}});
+		Object.defineProperty(Boolean.prototype,'isnt',{ get : function(){ 
+			return isnt(this);
+		}});
+		Object.defineProperty(Array.prototype,'isnt',{ get : function(){ 
+			return isnt(this);
+		}});
+		Object.defineProperty(Object.prototype,'isnt',{ get : function(){ 
+			return isnt(this);
+		}});
+		Object.defineProperty(Function.prototype,'isnt',{ get : function(){ 
+			return isnt(this);
+		}});
+		Object.defineProperty(String.prototype,'isn_t',{ get : function(){ 
+			return isn_t(this);
+		}});
+		Object.defineProperty(Number.prototype,'isn_t',{ get : function(){ 
+			return isn_t(this);
+		}});
+		Object.defineProperty(Boolean.prototype,'isn_t',{ get : function(){ 
+			return isn_t(this);
+		}});
+		Object.defineProperty(Array.prototype,'isn_t',{ get : function(){ 
+			return isn_t(this);
+		}});
+		Object.defineProperty(Object.prototype,'isn_t',{ get : function(){ 
+			return isn_t(this);
+		}});
+		Object.defineProperty(Function.prototype,'isn_t',{ get : function(){ 
+			return isn_t(this);
+		}});
+		Object.defineProperty(Array.prototype,'are',{ get : function(){ 
+			return are.apply(null, Array.prototype.slice.call(this, 1));;
+		}});
+		Object.defineProperty(Array.prototype,'arent',{ get : function(){ 
+			return arent.apply(null, Array.prototype.slice.call(this, 1));;
+		}});
+		Object.defineProperty(Array.prototype,'aren_t',{ get : function(){ 
+			return aren_t.apply(null, Array.prototype.slice.call(this, 1));;
+		}});
