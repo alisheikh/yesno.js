@@ -142,11 +142,15 @@ if(("abc").is.number)
 
 if( it.is.array ) 
 { /* Do something fun ! */ }
+// -it- refers to "abc"
 
 if( it.is.string )
 { /* Do something clever */ }
+// -it- still refers to "abc"
 
-var Answer = is(it).boolean;
+var Answer1 = is(123).array;
+var Answer2 = is(it).boolean;
+// -it- refers to 123
 
 
 if( [1,2,3].are.strings )
@@ -154,6 +158,8 @@ if( [1,2,3].are.strings )
 
 if( they.are.numbers )
 { /* Nevermind ! */ }
+// -they- refers refers to [1,2,3]
 
-var Answer = are(they).null;
+var Answer3 = are(they).null;
+// -they- still refers to [1,2,3]
 ```
