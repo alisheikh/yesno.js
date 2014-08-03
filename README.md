@@ -107,7 +107,7 @@ is(a).string is the same thing as is(a).str
 			
 and you can suggest your synonymes to be added to the library.
 
-#### The `is` object
+#### The `is` object (1.1)
 
 Starting from the 1.1 Release, you can make your if statments more readable.
 The `is` object is added into all the types' prototypes 
@@ -130,5 +130,30 @@ while( myArray.isnt.empty )
 var Names = ['khalid', 'Ahmed', 'Mohammed'];
 if( Names.are.strings )
 {  /* code ... */ }
+```
+
+#### Memorize your test using `it` and `they` (1.2)
+
+When you do a test about a value if it is number or string or whatever, and you need to do another test about the exact same value, you can make your test readable and meaningful by using the global variables `it` and `they`
+
+``` javascript 
+if(("abc").is.number)
+{ /* Do something funny ! */ }
+
+if( it.is.array ) 
+{ /* Do something fun ! */ }
+
+if( it.is.string )
+{ /* Do something clever */ }
+
+var Answer = is(it).boolean;
 
 
+if( [1,2,3].are.strings )
+{ /* Do something stupid */ }
+
+if( they.are.numbers )
+{ /* Nevermind ! */ }
+
+var Answer = are(they).null;
+```
