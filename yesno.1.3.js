@@ -315,8 +315,12 @@ function isIt()
 	{
 		for(key in this.It)
 			for(index in arguments)
+			{
+				arguments[index] = ((arguments[index]===window['it'])?it.It:arguments[index]);
+				arguments[index] = ((arguments[index]===window['they'])?they.It:arguments[index]);
 				if(this.It[key]!=arguments[index])
 					return false;
+			}
 		if(arguments.length === 0 && this.It.length>0)
 			return false;
 		return true;
@@ -325,8 +329,12 @@ function isIt()
 	{
 		for(key in this.It)
 			for(index in arguments)
+			{
+				arguments[index] = ((arguments[index]===window['it'])?it.It:arguments[index]);
+				arguments[index] = ((arguments[index]===window['they'])?they.It:arguments[index]);
 				if(this.It[key]==arguments[index])
 					return false;
+			}
 		return true;
 	}
 	this.defineSyn = function (name, property)
@@ -509,20 +517,20 @@ Object.defineProperty(Array.prototype,'are',
 	{ get : 
 		function()
 		{ 
-			return are(this.valueOf());
+			return are.apply(null,this.valueOf());
 		}
 	});
 Object.defineProperty(Array.prototype,'arent',
 	{ get : 
 		function()
 		{ 
-			return arent(this.valueOf());
+			return arent.apply(null,this.valueOf());
 		}
 	});
 Object.defineProperty(Array.prototype,'aren_t',
 	{ get : 
 		function()
 		{ 
-			return aren_t(this.valueOf());
+			return aren_t.apply(null,this.valueOf());
 		}
 	});
