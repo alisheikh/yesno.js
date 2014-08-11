@@ -534,3 +534,9 @@ Object.defineProperty(Array.prototype,'aren_t',
 			return aren_t.apply(null,this.valueOf());
 		}
 	});
+console.log("╭╮╱╱╭╮╱╱╱╱╱╭━╮╱╭╮╱╱╱╱╱╭╮");
+console.log("┃╰╮╭╯┃╱╱╱╱╱┃┃╰╮┃┃╱╱╱╱╱┃┃");
+console.log("╰╮╰╯╭┻━┳━━╮┃╭╮╰╯┣━━╮╱╱┃┣━━╮");
+console.log("╱╰╮╭┫┃━┫━━┫┃┃╰╮┃┃╭╮┃╭╮┃┃━━┫");
+console.log("╱╱┃┃┃┃━╋━━┃┃┃╱┃┃┃╰╯┃┃╰╯┣━━┃");
+console.log("╱╱╰╯╰━━┻━━╯╰╯╱╰━┻━━╯╰━━┻━━╯");
