@@ -542,7 +542,7 @@ Object.defineProperty(Array.prototype,'aren_t',
 	});
 var yesno = {
   "name": "yesno.js",
-  "version": "v1.4",
+  "version": "v1.5",
   "description": "A better way to make your if statements readable and meaningful",
   "author": "Khalid REHIOUI",
   "license": "The MIT License (MIT)",
@@ -554,6 +554,7 @@ var yesno = {
   "keywords": 
   [
     "if",
+    "conditions",
     "true",
     "false",
     "is",
