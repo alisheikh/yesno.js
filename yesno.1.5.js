@@ -540,3 +540,25 @@ Object.defineProperty(Array.prototype,'aren_t',
 			return aren_t.apply(null,this.valueOf());
 		}
 	});
+var yesno = {
+  "name": "yesno.js",
+  "version": "v1.4",
+  "description": "A better way to make your if statements readable and meaningful",
+  "author": "Khalid REHIOUI",
+  "license": "The MIT License (MIT)",
+  "repository": 
+  {
+    "type": "git",
+    "url": "https://github.com/khaliid/yesno.js/"
+  },
+  "keywords": 
+  [
+    "if",
+    "true",
+    "false",
+    "is",
+    "human",
+    "readable",
+    "javascript"
+  ]
+};
