@@ -549,7 +549,7 @@ var yesno = {
   "repository": 
   {
     "type": "git",
-    "url": "https://github.com/khaliid/yesno.js/"
+    "url": "https://github.com/javascipt/yesno.js/"
   },
   "keywords": 
   [
